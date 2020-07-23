@@ -1,0 +1,80 @@
+.bg {
+    background-color: rgb(240, 240, 240)
+ }
+
+.jumbo{
+    background-color: rgb(191, 223, 144)
+}
+
+.titleText{
+    font-weight: bold; 
+    
+}
+
+ .itembg{
+     background-color: white;
+}
+
+.wrapR{
+    float: right;
+    margin: 10px;
+}
+
+.wrapL{
+    float: left;
+    margin: 10px;
+}
+
+.padLeft{
+    padding-left: 20px;
+}
+
+.shadow{
+    shadow: 3px 3px gray
+}
+
+.padTop{
+    padding-top: 25px;
+}
+
+.btm{
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
+.link{
+    text-decoration-color: rgb(191,223,144);
+}
+
+p{
+    font-family: Verdana, sans-serif;
+   font-size: 16px
+}
+
+.padHeading{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.padText{
+    padding:15px;
+}
+
+.padLast{
+        padding-top:5px;
+        padding-bottom:15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+.padMini{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.padLR{
+    padding-left: 130px;
+    padding-right: 130px;
+}
