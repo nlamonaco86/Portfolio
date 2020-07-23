@@ -60,6 +60,10 @@ p{
     padding:15px;
 }
 
+.padLess{
+    padding:8px
+}
+
 .padLast{
         padding-top:5px;
         padding-bottom:15px;
