@@ -15,4 +15,4 @@ https://nlamonaco86.github.io/Portfolio/
 Github Repo:
 https://github.com/nlamonaco86/Portfolio/
 
-![Portfolio Screenshot](assets/imgs/Screenshot_20200724-142122.jpg)
+![Portfolio Screenshot](assets/imgs/screenshot.png)
