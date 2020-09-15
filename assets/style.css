@@ -1,49 +1,5 @@
-.bg {
-    background-color: rgb(240, 240, 240)
- }
-
 .jumbo{
     background-color: rgb(191, 223, 144)
-}
-
-.titleText{
-    font-weight: bold; 
-    
-}
-
- .itembg{
-     background-color: white;
-}
-
-.wrapR{
-    float: right;
-    margin: 10px;
-}
-
-.wrapL{
-    float: left;
-    margin: 10px;
-}
-
-.padLeft{
-    padding-left: 20px;
-}
-
-.shadow{
-    shadow: 3px 3px gray
-}
-
-.padTop{
-    padding-top: 25px;
-}
-
-.btm{
-    padding-top: 25px;
-    padding-bottom: 1px;
-}
-
-.link{
-    text-decoration-color: rgb(191,223,144);
 }
 
 p{
@@ -51,34 +7,39 @@ p{
    font-size: 16px
 }
 
-.padHeading{
-    padding-top: 10px;
-    padding-left: 25px;
+.shadow{
+    shadow: 3px 3px gray
 }
 
-.padText{
-    padding:15px;
+.w{
+    background-color: white
 }
 
-.padLess{
-    padding:8px
+.grn{
+    color: rgb(191, 223, 144)
 }
 
-.padLast{
-        padding-top:5px;
-        padding-bottom:15px;
-        padding-left: 15px;
-        padding-right: 15px;
+.tab{
+    text-indent: 45px;
+}
+
+.purp{
+        color: #DB5ABA
+}
+ 
+.rh1{
+min-height: 255px;
+}
+
+.rh2{
+    min-height: 690px;
     }
 
-.padMini{
-    padding-top:5px;
-    padding-bottom:5px;
-    padding-left: 15px;
-    padding-right: 15px;
+.pad{
+    padding: 10px;
 }
 
-.padLR{
-    padding-left: 130px;
-    padding-right: 130px;
+.btm{
+    padding-top: 25px;
+    padding-bottom: 1px;
 }

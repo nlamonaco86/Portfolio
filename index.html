@@ -2,199 +2,176 @@
 <html lang="en">
 
 <head>
-    <!-- Bootstrap & CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap & local style -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="https://kit.fontawesome.com/6337599472.js" crossorigin="anonymous"></script>
-
-    <!-- JS, Popper.js, and jQuery -->
+    <!-- JQuery / Popper-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/mmx.js"></script>
+    <!-- Font Kit -->
+    <script src="https://kit.fontawesome.com/6337599472.js"></script>
     <title>Nicholas La Monaco</title>
 </head>
-
-<!-- Jumbotron -->
 
 <body class="bg">
     <div class="jumbotron jumbotron-fluid jumbo shadow">
         <div class="container">
             <h1 class="display-1 font-weight-bold">Hello.</h1>
             <p class="display-4">I'm Nicholas La Monaco.</p>
-            <p class="lead">An aspiring full-stack web developer from New Jersey.</p>
-            <div class="d-flex justify-content-end">
-                <button type="button" class="btn-lg btn-secondary shadow" id="email">E-Mail Me!</button>
+            <div class="d-flex justify-content-between">
+                <p class="lead">An aspiring full-stack web developer from New Jersey.</p>
+                <a href="mailto:nlamonaco86@gmail.com"><i class="fas fa-envelope fa-5x text-dark"></i></a>
             </div>
         </div>
     </div>
 
-    <!-- First two items -->
     <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-lg-7">
-                <div class="itembg shadow">
-                    <div class="media-body">
-                        <h5 class="padHeading titleText">About Me</h5>
-                        <p class="padText">&emsp;&emsp;I believe that good design is both art and science. With a
-                            minimalist, lightweight approach,
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="pad col-lg-6">
+                <div class="w shadow rh1">
+                    <div class="card-body">
+                        <h4 class="card-title display-4 d-flex justify-content-center">About</h4>
+                        <p class="tab">With a minimalist, lightweight approach,
                             I can create effective, efficient, user-friendly and enjoyable web applications for a wide
                             variety of uses. I learn
-                            quickly and I'm not afraid to try new ways of doing things.
-                        </p>
+                            quickly and I'm not afraid to try new ways of doing things.</p>
                     </div>
                 </div>
             </div>
 
-
-            <div class="col-lg-5">
-                <div class="itembg shadow">
-                    <div class="media-body">
-                        <h5 class="padHeading titleText">Resume & Social Media</h5>
-                        <p class="padMini">&emsp;You can check out my <a href="./assets/resume.pdf"
-                                class="text-success font-weight-bold">resume</a> over here!</p>
-                        <p class="padMini">&emsp;Or have a look at my <a href="https://github.com/nlamonaco86"
-                                class="text-success font-weight-bold">GitHub</a></p>
-                        <p class="padLast">&emsp;You can also find more about me on <a
-                                href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/"
-                                class="text-success font-weight-bold">LinkedIn</a>.</p>
-
+            <div class="pad col-lg-6">
+                <div class="w shadow rh1" id="links">
+                    <div class="card-body">
+                        <h4 class="card-title display-4 d-flex justify-content-center">Links</h4>
+                        <div class="d-flex flex-row justify-content-around pad">
+                            <a href="http://github.com/nlamonaco86" target="_blank"><i
+                                    class="fab fa-5x fa-github text-dark"></i></a>
+                            <a href="./assets/resume.pdf" target="_blank"><i
+                                    class="fas fa-5x fa-file-pdf text-danger"></i></a>
+                            <a href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/" target="_blank"><i
+                                    class="fab fa-5x fa-linkedin text-info"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Projects Headder-->
-    <div class="d-flex justify-content-center media container padtop">
-        <div class="jumbo shadow">
-            <h4 class="d-flex justify-content-center lead titleText padLR">Projects</h4>
-        </div>
-    </div>
-
-    <!-- Projects Section -->
-    <!-- Item 1 -->
-    <div class="container">
-        <div class="row justify-content-between padTop">
-            <div class="col-lg-12">
-                <div class="media itembg shadow">
-                    <div>
-                        <a href="repairtracker.herokuapp.com">
-                            <!-- <img src="./assets/imgs/wg.png" class="align-self-center ml-3 padText wrapR"
-                                alt="Virtual Bidner Screenshot"> -->
-                                <i class="fas fa-7x fa-tools align-self-center ml-3 padText wrapR text-info"></i>
-                            </a>
-                        <h5 class="padHeading titleText mt-0 mb-1"><a href="https://nlamonaco86.github.io/repairTracker/" class="text-success">repairTracker</a>
-                        </h5>
-                        <p class="padText">repairTracker is a full-stack application using Node.js, Express, Handlebars,
-                            MySQL and JQuery to demonstrate full use of C-R-U-D in a repair order database such as one would find in an
-                            auto, electronics, or appliance repair shop. Future versions of repairTracker will utilize
-                            Sequelize and Passport to protect the employee database, as well as lookup current order
-                            status on the customer side.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Item 2 -->
-    <div class="container">
-        <div class="row justify-content-between padTop">
-            <div class="col-lg-12">
-                <div class="media itembg shadow">
-                    <div>
-                        <a href="https://nlamonaco86.github.io/Power_Nine/"><img src="./assets/imgs/p9.png"
-                                class="align-self-center mr-3 padText wrapL" alt="Virtual Binder Screenshot"></a>
-                        <h5 class="padHeading titleText"><a href="https://github.com/nlamonaco86/Power_Nine"
-                                class="text-success">Power_Nine</a></h5>
-                        <p class="padText">&emsp;&emsp;A dynamic, interactive virtual collectible card binder
-                            that uses the Scryfall API to
-                            generate viewable pages of collectible cards based on name, set, or other user input
-                            alongside relevant information
-                            about the items being displayed. Cards can be viewed individually in high resolution
-                            and with more information in just a simple click. Users will be
-                            able to store and share their collections with others in future releases.
-                        </p>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="pad col-lg-4">
+                <div class="w shadow rh2">
+                    <div class="card-body">
+                        <a href="http://repairtracker.herokuapp.com" target="_blank">
+                            <h4 class="lead d-flex justify-content-center text-info">repairTracker</h4>
+                        </a>
+                        <p class="tab">This full stack, mobile-first application can be used to manage the status of a
+                            work
+                            order as one would in an auto, electronics or appliance repair shop. Employees can login and
+                            manage order status and update information, customers can track the status of their repair
+                            from a separate
+                            page.</p>
+                        <a href="https://github.com/nlamonaco86/repairTracker">
+                            <div id="repairTracker" class="carousel slide carousel-fade" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-interval="2000">
+                                        <img src="./assets/imgs/rt.png" class="d-block w-100" alt="employee interface">
+                                    </div>
+                                    <div class="carousel-item" data-interval="2000">
+                                        <img src="./assets/imgs/rt2.png" class="d-block w-100" alt="login">
+                                    </div>
+                                    <div class="carousel-item" data-interval="2000">
+                                        <img src="./assets/imgs/rt3.png" class="d-block w-100" alt="tracker">
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Item 3 -->
-    <div class="container">
-        <div class="row justify-content-between padTop">
-            <div class="col-lg-12">
-                <div class="media itembg shadow">
-                    <div>
-                        <a href="https://nlamonaco86.github.io/javscript_cat_quiz/"><img src="./assets/imgs/cq.png"
-                                class="align-self-center mr-3 padText wrapL" alt="Virtual Binder Screenshot"></a>
-                        <div></div>
-                        <h5 class="padHeading titleText"><a href="https://github.com/nlamonaco86/javscript_cat_quiz"
-                                class="text-success">Cat Quiz</a></h5>
-                        <p class="padText">&emsp;&emsp;A simple and fun timed quiz to test the user's
-                            knowledge of everyone's favorite four legged
-                            friend. Users receive a modal reward based on their resulting score. But
-                            you'll need to bring your cat-like
-                            reflexes for this one.
-                        </p>
-                    </div>
+
+        <div class="pad col-lg-4">
+            <div class="w shadow rh2">
+                <div class="card-body">
+                    <a href="https://github.com/mc4506/martial-art-school-management" target="_blank">
+                        <h4 class="lead d-flex justify-content-center text-danger">fullstack MMA</h4>
+                    </a>
+                    <a href="https://guarded-hamlet-46204.herokuapp.com/">
+                        <div id="fullstackMMA" class="carousel slide carousel-fade" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-interval="2000">
+                                    <img src="./assets/imgs/mma.png" class="d-block w-100" alt="splash page">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="./assets/imgs/mma2.png" class="d-block w-100" alt="schedule">
+                                </div>
+                                <div class="carousel-item" data-interval="2000">
+                                    <img src="./assets/imgs/mma3.png" class="d-block w-100" alt="instructor">
+                                </div>
+                            </div>
+                    </a>
+                    <p class="tab">This is an intuitive, flexible scheduling and attendance tracking platform for
+                        students and instructors. Students can register a personalized profile, view and signup for
+                        available classes and communicate with others. Instructors can manage student status and
+                        attendance.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Item 4 -->
-    <div class="container">
-        <div class="row justify-content-between padTop">
-            <div class="col-lg-12">
-                <div class="media itembg shadow">
-                    <div>
-                        <a href="#"><img src="./assets/imgs/placeholder.png"
-                                class="align-self-center ml-3 padLess wrapR" alt="Weather App Screenshot"></a>
-                        <h5 class="padHeading titleText mt-0 mb-1"><a href="#" class="text-success">Weather</a></h5>
-                        <p class="padText">&emsp;&emsp;This is a minimalist approach to weather forecasting
-                            utilizing the OpenWeather API. Quickly and easily see
-                            the five day forecast for your current location or nearly anywhere else you
-                            might be traveling to. All without the
-                            bloat and distraction found on many weather platforms.
-                        </p>
-                    </div>
-
-                </div>
+    <div class="pad col-lg-4">
+        <div class="w shadow rh2">
+            <div class="card-body">
+                <a href="https://github.com/nlamonaco86/Power_Nine" target="_blank">
+                    <h4 class="lead d-flex justify-content-center text-dark">Power_Nine</h4>
+                </a>
+                <p class="tab">A hobby project made using JQuery, Bootstrap and the Scryfall API. Users can search for
+                    and display collectible cards by name or set, and view them up close with a dynamic modal. Future
+                    versions will include the ability to save and recall customized collections.</p>
+                <a href="https://nlamonaco86.github.io/Power_Nine/">
+                    <div id="repairTracker" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="1000">
+                                <img src="./assets/imgs/p9.png" class="d-block w-100" alt="mainpage">
+                            </div>
+                            <div class="carousel-item" data-interval="1000">
+                                <img src="./assets/imgs/p92.png" class="d-block w-100" alt="about">
+                            </div>
+                            <div class="carousel-item" data-interval="1000">
+                                <img src="./assets/imgs/p93.png" class="d-block w-100" alt="setview">
+                            </div>
+                        </div>
+                </a>
+                </a>
             </div>
         </div>
     </div>
-
+    </div>
+    </div>
+</div>
+    <!-- Row 3 -->
+    <!-- Footer -->
     <div class="btm">
         <div class="jumbo">
-            <div class="container">
-                <h1 class="display-3 font-weight-bold padText">Don't say goodbye!</h1>
-                <div class="d-flex justify-content-end padText">
-                    <a href="tel:9083379307"><button type="button" class="btn-lg btn-secondary shadow" id="call">Call
-                            Me!</button></a>
+            <div class="container pad">
+                <div class="d-flex justify-content-between">
+                    <h1 class="display-4">Don't say goodbye!</h1>
+                    <a href="tel:9083379307"><i class="fas fa-phone fa-5x text-dark"></i></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        $("#email").on("click", function (event) {
-            $("#email").attr("href", 'mailto:nlamonaco86@gmail.com?');
-        });
-        $("#call").on("click", function (event) {
-            $("#call").attr("tel", 'tel:9083379307');
-        });  
-    </script>
 
 </body>
 
