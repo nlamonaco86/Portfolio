@@ -7,7 +7,7 @@ My Portfolio Page
 
 ## This is my new and improved Portfolio
 
-I chose a minimalist, eye-catching mobile-first design that is vivid and concise
+I chose a minimalist, eye-catching mobile-first design that is vivid and concise. 
 
 Portfolio Page:
 https://nlamonaco86.github.io/Portfolio/
