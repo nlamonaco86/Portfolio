@@ -24,15 +24,27 @@ p{
 }
 
 .purp{
-        color: #DB5ABA
+    color: indigo;
 }
- 
+
+.mar{
+    color: maroon;
+}
+
 .rh1{
 min-height: 255px;
+border-radius: 10px;
 }
 
 .rh2{
     min-height: 690px;
+    border-radius: 10px;
+    }
+
+    
+.rh3{
+    min-height: 345px;
+    border-radius: 10px;
     }
 
 .pad{
