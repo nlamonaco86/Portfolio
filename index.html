@@ -2,215 +2,249 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap & local style -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
-    <!-- JQuery / Popper-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <script src="assets/console.js" defer></script>
-    <!-- Font Kit -->
-    <script src="https://kit.fontawesome.com/6337599472.js"></script>
-    <title>Nicholas La Monaco</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Nicholas La Monaco</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
 </head>
 
-<body class="bg">
-    <div class="jumbotron jumbotron-fluid jumbo shadow">
-        <div class="container">
-            <h1 class="display-1 font-weight-bold">Hello.</h1>
-            <p class="display-4">I'm Nicholas La Monaco.</p>
-            <div class="d-flex justify-content-between">
-                <p class="lead">An aspiring full-stack web developer from New Jersey.</p>
-                <a href="mailto:nlamonaco86@gmail.com"><i class="fas fa-envelope fa-5x text-dark"></i></a>
-            </div>
-        </div>
-    </div>
+<body id="page-top">
 
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Nicholas La Monaco</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#technologies">Technologies</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1 text-white">Nicholas La Monaco</h1>
+      <h3 class="mb-5 text-secondary">
+        <em>Full Stack Web Developer</em>
+      </h3>
+      <a class="btn btn-warning btn-xl js-scroll-trigger" href="#portfolio">My Projects</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
+
+  <!-- Portfolio -->
+  <section class="content-section" id="portfolio">
     <div class="container">
-        <!-- Row 1 -->
-        <div class="row">
-            <div class="pad col-lg-6">
-                <div class="w shadow rh1">
-                    <div class="card-body">
-                        <h4 class="display-4 d-flex justify-content-center">About</h4>
-                        <p class="tab">With a minimalist, lightweight approach,
-                            I can create effective, efficient, user-friendly and enjoyable web applications for a wide
-                            variety of uses. I learn
-                            quickly and I'm not afraid to try new ways of doing things.</p>
-                    </div>
-                </div>
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Repair Tracker</div>
+                <p class="mb-0">Order-status management and invoice creation system.</p>
+                <a class="btn btn-secondary mt-4" href="https://repairtracker.herokuapp.com" target="_blank">Demo</a>
+                <button class="btn btn-secondary mt-4" href="">Github</button>
+              </div>
             </div>
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Where is Santa?</div>
+                <p class="mb-0">Follow Santa's location throughout his delivery route!</p>
+                <button class="btn btn-secondary mt-4">Demo</button>
+                <button class="btn btn-secondary mt-4">Github</button>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">MERN Studio</div>
+                <p class="mb-0">Community event management and social media platform.</p>
+                <button class="btn btn-secondary mt-4">Demo</button>
+                <button class="btn btn-secondary mt-4">Github</button>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="portfolio-item">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Infinite Realms</div>
+                <p class="mb-0">Lazy-Loading image gallery of everyone's favorite trading card game.</p>
+                <button class="btn btn-secondary mt-4">Demo</button>
+                <button class="btn btn-secondary mt-4">Github</button>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-            <div class="pad col-lg-6">
-                <div class="w shadow rh1" id="links">
-                    <div class="card-body">
-                        <h4 class="display-4 d-flex justify-content-center">Links</h4>
-                        <div class="d-flex flex-row justify-content-around pad">
-                            <a href="http://github.com/nlamonaco86" target="_blank"><i
-                                    class="fab fa-5x fa-github text-dark"></i></a>
-                            <a href="./assets/resume.pdf" target="_blank"><i
-                                    class="fas fa-5x fa-file-pdf text-danger"></i></a>
-                            <a href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/" target="_blank"><i
-                                    class="fab fa-5x fa-linkedin text-info"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Row 2 -->
-        <div class="row">
-            <div class="pad col-lg-4">
-                <div class="w shadow rh2">
-                    <div class="card-body">
-                        <a href="http://repairtracker.herokuapp.com" target="_blank">
-                            <h4 class="lead d-flex justify-content-center text-info">repairTracker</h4>
-                        </a>
-                        <p class="tab">This full stack, mobile-first application can be used to manage the status of a
-                            work
-                            order as one would in an auto, electronics or appliance repair shop. Employees can login and
-                            manage order status and update information, customers can track the status of their repair
-                            from a separate
-                            page.</p>
-                        <a href="https://github.com/nlamonaco86/repairTracker">
-                            <div id="repairTracker" class="carousel slide carousel-fade" data-ride="carousel">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active" data-interval="2000">
-                                        <img src="./assets/imgs/rt.png" class="d-block w-100" alt="employee interface">
-                                    </div>
-                                    <div class="carousel-item" data-interval="2000">
-                                        <img src="./assets/imgs/rt2.png" class="d-block w-100" alt="login">
-                                    </div>
-                                    <div class="carousel-item" data-interval="2000">
-                                        <img src="./assets/imgs/rt3.png" class="d-block w-100" alt="tracker">
-                                    </div>
-                                </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="pad col-lg-4">
-            <div class="w shadow rh2">
-                <div class="card-body">
-                    <a href="https://github.com/mc4506/martial-art-school-management" target="_blank">
-                        <h4 class="lead d-flex justify-content-center text-danger">fullstack MMA</h4>
-                    </a>
-                    <a href="https://guarded-hamlet-46204.herokuapp.com/">
-                        <div id="fullstackMMA" class="carousel slide carousel-fade" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active" data-interval="2000">
-                                    <img src="./assets/imgs/mma.png" class="d-block w-100" alt="splash page">
-                                </div>
-                                <div class="carousel-item" data-interval="2000">
-                                    <img src="./assets/imgs/mma2.png" class="d-block w-100" alt="schedule">
-                                </div>
-                                <div class="carousel-item" data-interval="2000">
-                                    <img src="./assets/imgs/mma3.png" class="d-block w-100" alt="instructor">
-                                </div>
-                            </div>
-                    </a>
-                    <p class="tab">This is an intuitive, flexible scheduling and attendance tracking platform for
-                        students and instructors. Students can register a personalized profile, view and signup for
-                        available classes and communicate with others. Instructors can manage student status and
-                        attendance.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="pad col-lg-4">
-        <div class="w shadow rh2">
-            <div class="card-body">
-                <a href="https://github.com/nlamonaco86/fullstackFitness" target="_blank">
-                    <h4 class="lead d-flex justify-content-center text-warning">fullStack Fitness</h4>
-                </a>
-                <p class="tab">A full stack application utilizing Node.js, Express, Passport, and Sequelize. Users can
-                    create a
-                    personalized profile, search through an exercise database based on desired type and available
-                    equipment, and
-                    generate personalized workouts to help meet their personal fitness goals.
-                </p>
-                <a href="https://fullstackfitness.herokuapp.com/">
-                    <div id="repairTracker" class="carousel slide carousel-fade" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-interval="1000">
-                                <img src="./assets/imgs/ff1.png" class="d-block w-100" alt="mainpage">
-                            </div>
-                            <div class="carousel-item" data-interval="1000">
-                                <img src="./assets/imgs/ff2.png" class="d-block w-100" alt="about">
-                            </div>
-                            <div class="carousel-item" data-interval="1000">
-                                <img src="./assets/imgs/ff3.png" class="d-block w-100" alt="setview">
-                            </div>
-                        </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    <div class="row">
-        <div class="pad col-lg-6">
-            <div class="w shadow rh3">
-                <div class="card-body">
-                    <h4 class="lead d-flex justify-content-start purp">power Nine</h4>
-                    <div class="row">
-                        <div class="col-lg-6 tab">
-                            <p>Users can login to <span class="purp">power Nine</span> and recreate their personal
-                                card collection using the Scryfall API.
-                            It can then be stored, recalled, and viewed
-                                from our database. Users can view others' collections, send messages, and offer trades
-                                directly to others.</p>
-                        </div>
-                        <a href="https://github.com/nlamonaco86/Power_Nine" target="_blank" class="col-lg-6"><img src="./assets/imgs/p91.png" class="img-fluid" alt="power Nine"></a>
-                    </div>
-                </div>
-            </div>
+  <!-- Technologies -->
+  <section class="content-section bg-primary text-white text-center" id="technologies">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">technologies</h3>
+        <h2 class="mb-5">What I Offer</h2>
+      </div>
+      <div class="mt-3" id="buttonDiv">
+        <div class="row d-flex justify-content-around">
+          <div class="row col-lg-12 d-flex justify-content-between">
+            <img class="icon" src="assets/icons/node.svg">
+            <img class="icon" src="assets/icons/mongodb.svg">
+            <img class="iconD" src="assets/icons/mysql.svg">
+            <img class="iconD" src="assets/icons/handlebars.svg">
+            <img class="iconD" src="assets/icons/express.svg">
+          </div>
+          <div class="row col-lg-12 d-flex justify-content-between mt-5">
+            <img class="icon" src="assets/icons/html.svg">
+            <img class="icon" src="assets/icons/css.svg">
+            <img class="icon" src="assets/icons/react.svg">
+            <img class="icon" src="assets/icons/javascript.svg">
+            <img class="icon" src="assets/icons/jquery.svg">
+          </div>
         </div>
 
-        <div class="pad col-lg-6">
-            <div class="w shadow rh3" id="links">
-                <div class="card-body">
-                    <h4 class="lead d-flex justify-content-end mar">infinite Realms</h4>
-                    <div class="row">
-                        <a href="https://infiniterealms.herokuapp.com" target="_blank" class="col-lg-6"><img src="./assets/imgs/ir1.png" class="img-fluid" alt="infinite Realms"></a>
-                        <div class="col-lg-6 tab">
-                            <p>This progressive web application utilizes MongoDB and Mongoose in addition
-                                to previously
-                                mentioned technologies to allow the user to scroll through, view,
-                                and rate an infinitely increasing database of images.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-4 mx-auto">
+          <img class="img-fluid radius" src="assets/me.jpg" alt="myself">
+          <ul class="list-inline mt-4">
+            <li class="list-inline-item">
+              <a class="text-primary mr-4" href="https://github.com/nlamonaco86">
+                <i class="fab fa-github fa-5x hvY"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="text-primary ml-4" href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/">
+                <i class="fab fa-linkedin fa-5x hvY"></i>
+              </a>
+            </li>
+          </ul>
+
         </div>
-    </div>
-    </div>
-
-
-    <!-- Footer -->
-    <div class="btm">
-        <div class="jumbo">
-            <div class="container pad">
-                <div class="d-flex justify-content-between">
-                    <h1 class="display-4">Don't say goodbye!</h1>
-                    <a href="tel:9083379307"><i class="fas fa-phone fa-5x text-dark"></i></a>
-                </div>
-            </div>
+        <div class="col-lg-8 mx-auto mt-4">
+          <h2>About Me</h2>
+          <p class="lead mb-5">I'm a full-stack developer with an analytical, problem-solving, and pragmatic mindset.
+            Always looking for new challenges, I'm relentless in my pursuit of improvement and always searching for ways
+            to share what I have learned to help others improve and succeed. My diverse set of life experiences has
+            given me the opportunity to work with electronics and automobile repair, as well as massive
+            telecommunications companies, and so I'm not afraid to try new things and quickly adapt to any scenario.</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Contact Me</a>
         </div>
+      </div>
     </div>
+  </section>
 
+  <!-- Contact -->
+  <!-- Header -->
+  <section class="content-section bg-primary text-white text-center" id="contact"
+    style="max-height:500px;min-height:500px;">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Learn More</h3>
+        <h2 class="mb-5">Contact Me</h2>
+        <div>
+          <a href="tel:9083379307" class="contact-link"><i class="fas fa-phone mr-4 mb-4"></i>(908) 337-9307</a>
+        </div>
+        <div>
+          <a href="mailto:nlamonaco86@gmail.com" class="contact-link"><i
+              class="fas fa-envelope mr-4 mt-4"></i>nlamonaco86@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+
+      <ul class="list-inline mt-4">
+        <li class="list-inline-item">
+          <a class="text-primary mr-4" href="https://github.com/nlamonaco86">
+            <i class="fab fa-github fa-5x hvY"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="text-primary ml-4" href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/">
+            <i class="fab fa-linkedin fa-5x hvY"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p class="text-muted small mt-5 mb-0">Nicholas La Monaco 2020</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
 
 </body>
 
