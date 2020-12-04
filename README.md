@@ -1,4 +1,8 @@
 # Portfolio
 My Portfolio Page
 
-https://nlamonaco86.github.io/Portfolio/
+Deployed at:
+
+## https://www.nicholaslamonaco.com
+
+![portfolio page](./img/screenshot.png) 

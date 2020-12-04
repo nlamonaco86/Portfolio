@@ -80,7 +80,8 @@
                 <div class="h2">Repair Tracker</div>
                 <p class="mb-0">Order-status management and invoice creation system.</p>
                 <a class="btn btn-secondary mt-4" href="https://repairtracker.herokuapp.com" target="_blank">Demo</a>
-                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/repairTracker" target="_blank">Github</a>
+                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/repairTracker"
+                  target="_blank">Github</a>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
@@ -93,7 +94,8 @@
                 <div class="h2">Where is Santa?</div>
                 <p class="mb-0">Follow Santa's location throughout his delivery route!</p>
                 <a class="btn btn-secondary mt-4" href="https://whereissanta.herokuapp.com/" target="_blank">Demo</a>
-                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/whereIsSanta" target="_blank">Github</a>
+                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/whereIsSanta"
+                  target="_blank">Github</a>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
@@ -106,7 +108,8 @@
                 <div class="h2">MERN Studio</div>
                 <p class="mb-0">Community event management and social media platform.</p>
                 <a class="btn btn-secondary mt-4" href="https://mern-ballroom.herokuapp.com/" target="_blank">Demo</a>
-                <a class="btn btn-secondary mt-4" href="https://github.com/sbolotnikov/Ballroom-Studio-MERN" target="_blank">Github</a>
+                <a class="btn btn-secondary mt-4" href="https://github.com/sbolotnikov/Ballroom-Studio-MERN"
+                  target="_blank">Github</a>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-5.jpg" alt="">
@@ -119,7 +122,8 @@
                 <div class="h2">Infinite Realms</div>
                 <p class="mb-0">Lazy-Loading image gallery of everyone's favorite trading card game.</p>
                 <a class="btn btn-secondary mt-4" href="https://infiniterealms.herokuapp.com/" target="_blank">Demo</a>
-                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/infiniteRealms" target="_blank">Github</a>
+                <a class="btn btn-secondary mt-4" href="https://github.com/nlamonaco86/infiniteRealms"
+                  target="_blank">Github</a>
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio-6.jpg" alt="">
@@ -198,7 +202,7 @@
     <div class="container">
       <div class="content-section-heading">
         <h3 class="text-secondary mb-0">Learn More</h3>
-        <h2 class="mb-5">Contact Me</h2>
+        <h2 class="mb-5">Contact</h2>
         <div>
           <a href="tel:9083379307" class="contact-link"><i class="fas fa-phone mr-4 mb-4"></i>(908) 337-9307</a>
         </div>
@@ -211,41 +215,86 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
+  <section class="content-section text-center">
+   <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Questions?</h3>
+        <h2 class="mb-5">E-Mail Me</h2>
+      </div>
 
+    <div class="container">
+      <form id="contactForm" name="sentMessage" novalidate="novalidate">
+        <div class="row align-items-stretch mb-5">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required"
+                data-validation-required-message="Please enter your name." />
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group">
+              <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required"
+                data-validation-required-message="Please enter your email address." />
+              <p class="help-block text-danger"></p>
+            </div>
+            <div class="form-group mb-md-0">
+              <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required"
+                data-validation-required-message="Please enter your phone number." />
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group form-group-textarea mb-md-0">
+              <textarea class="form-control" id="message" placeholder="Your Message *" required="required"
+                data-validation-required-message="Please enter a message." rows=5></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="success"></div>
+          <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send
+            Message</button>
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+  <footer class="footer text-center bg-primary">
+
+    <div class="container">
       <ul class="list-inline mt-4">
         <li class="list-inline-item">
-          <a class="text-primary mr-4" href="https://github.com/nlamonaco86">
+          <a class="text-warning mr-4" href="https://github.com/nlamonaco86">
             <i class="fab fa-github fa-5x hvY"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="text-primary ml-4" href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/">
+          <a class="text-warning ml-4" href="https://www.linkedin.com/in/nicholas-la-monaco-98b5501b3/">
             <i class="fab fa-linkedin fa-5x hvY"></i>
           </a>
         </li>
       </ul>
 
-      <p class="text-muted small mt-5 mb-0">Nicholas La Monaco 2020</p>
+      <p class="text-warning small mt-5 mb-0">Nicholas La Monaco 2020</p>
     </div>
   </footer>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
-
+    <!-- Custom  -->
+    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
 </body>
 
 </html>
